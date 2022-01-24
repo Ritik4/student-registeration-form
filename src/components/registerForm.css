@@ -1,0 +1,165 @@
+.form__container {
+  display: flex;
+  height: 100vh;
+}
+
+.form__left {
+  flex: 0.25;
+  background-color: #c4c4c4;
+}
+.form__right {
+  flex: 0.75;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+}
+
+.form__right form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__right input,
+select {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #e5e5e5;
+  border: none;
+  outline: none;
+}
+.intl-tel-input.allow-dropdown.separate-dial-code .flag-container {
+}
+.intl-tel-input.allow-dropdown.separate-dial-code
+  .flag-container
+  .selected-flag {
+  display: flex;
+  background-color: #e5e5e5;
+  padding: 5px;
+  z-index: 1;
+  border-right: 5px solid white;
+}
+.DayPickerInput-OverlayWrapper {
+  z-index: 2;
+}
+.intl-tel-input.allow-dropdown.separate-dial-code
+  .flag-container
+  .selected-dial-code {
+  padding-left: 5px;
+}
+.allow-dropdown {
+  margin-bottom: 10px;
+}
+
+.intl-tel-input.allow-dropdown.separate-dial-code input {
+  width: 100%;
+  padding: 10px;
+  /* background-color: #e5e5e5; */
+}
+
+.form__right form button {
+  margin-top: 30px;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: #0075ff;
+  color: white;
+  border: none;
+  font-weight: 600;
+}
+
+.form__right form button:hover {
+  background-color: #2168d3;
+  font-weight: 400;
+}
+
+.intltelinput__container {
+  position: relative;
+  display: flex;
+}
+
+.daypickerinput__container {
+  position: relative;
+}
+
+.intltelinput__container .allow-dropdown {
+  width: 100%;
+}
+
+.valid__msg {
+  position: absolute;
+  top: 5px;
+  right: -65px;
+  background-color: green;
+  color: white;
+  padding: 3px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.invalid__msg {
+  position: absolute;
+  top: 5px;
+  right: -228px;
+  font-weight: bold;
+  color: white;
+  padding: 3px;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: red;
+}
+.DayPickerInput {
+  width: 100%;
+}
+.DayPickerInput input {
+  width: 94%;
+  padding: 10px;
+}
+
+.isparent__box {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 8px;
+  font-weight: bold;
+  background-color: #e5e5e5;
+  width: fit-content;
+  border-radius: 5px;
+}
+.isparent__box input {
+  /* padding-top: 3px; */
+  /* margin-top: 5px; */
+  /* margin: 5px 0 0 5px; */
+  /* margin: 0; */
+  margin: 0 0 0 10px;
+}
+
+.loader__box {
+  position: absolute;
+  left: 45%;
+  top: -40px;
+  text-align: center;
+  width: 200px;
+  z-index: -99;
+  /* height: 50px; */
+}
+.loader__box span {
+  display: inline-block;
+  padding-top: 20px;
+  margin-bottom: -20px;
+  font-weight: bold;
+  color: orange;
+  position: absolute;
+  top: 35%;
+  left: 41%;
+}
+
+.loader__box img {
+  width: 100%;
+}
+
+.email__box {
+  position: relative;
+}
+.email__box input {
+  width: 94%;
+}
